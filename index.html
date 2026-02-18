@@ -1,19 +1,220 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Lorna Kendi</title>
+    <title>Lorna Kendi | Junior Data Scientist</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<body>
 
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
+<body id="top">
 
-    <h1>Welcome to My Personal Website</h1>
-    <p>I am a Data Science and Programming Enthusiast.</p>
+
+
+    <!-- HEADER (Top Strip) -->
+    <header>
+        <div class="logo">Lorna Kendi</div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Featured</a>
+            <a href="projects.html">All Projects</a>
+            <a href="#contact">Contact</a>                       
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-image-wrapper">
+              <img src="images/profile.jpg" alt="Lorna Kendi" class="hero-image">
+            </div>
+
+            <div class="hero-text">
+                <h1>
+                    Junior Data Scientist<br>
+                    Building Clarity From Data
+                </h1>
+
+                <p class="hero-subtext">
+                I analyze complex datasets, build predictive models,
+                and transform raw information into strategic insight.
+                </p>
+                <div class="hero-buttons">
+                <a href="assets/Lorna_Kendi_Resume.pdf" class="resume-button" download>
+                    Download Resume
+                </a>
+            </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+        <!-- CORE SKILLS STRIP -->
+    <section class="skills">
+        <div class="container skills-container">
+
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Statistical Analysis</span>
+            <span>Machine Learning</span>
+            <span>Data Visualization</span>
+            <span>Power BI</span>
+
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+<section id="about" class="about">
+
+    <div class="container">
+
+        <h2>About Me</h2>
+        <p class="about-highlight">
+            Analytical thinker with a foundation in applied statistics and a focus on real-world impact.
+        </p>
+
+
+        <p>
+            I’m Lorna Kendi, a junior data scientist with a background in Applied Statistics with Computing from Moi University.
+            My path into data science was not accidental — it was a natural extension of how I think.
+        </p>
+
+        <p>
+            I’ve always been drawn to understanding patterns, structure, and logic. 
+            Studying statistics gave me the theoretical foundation, but I wanted more than equations — 
+            I wanted to apply analytical thinking to real-world problems. 
+            Data science allows me to transform curiosity into insight and insight into practical value.
+        </p>
+
+        <p>
+            Technically, I’m strongest in Python for data analysis and in statistical reasoning. 
+            I’m comfortable cleaning messy datasets, exploring patterns, and asking the right questions before jumping into solutions. 
+            I also have working knowledge of SQL, Excel, Power BI, and machine learning — and I’m continuously building depth in these areas.
+        </p>
+
+        <p>
+            I’m particularly drawn to real-world problems — economic trends, social issues, and complex systems that require both logic and strategy. 
+            My goal over the next few years is to grow into a data professional who operates not just technically, but strategically — creating meaningful impact while expanding globally.
+        </p>
+
+    </div>
+</section>
+
+
+<!-- FEATURED PROJECTS SECTION -->
+<section id="projects" class="featured-projects">
+
+    <div class="container">
+
+        <h2>Featured Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Road Accident Analysis Project</h3>
+                    <p>A data analysis project examining road accident patterns to identify key risk factors, trends, and high-risk conditions in order to support safer road policies and better decision-making.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                <a href="https://github.com/lornakendi/road_accidents_proj.git" target="_blank">
+                    View Project →
+                </a>
+
+            </div>
+
+            <div class="project-card">
+                <h3>Food Price Shocks Analysis Project</h3>
+                    <p>An economic data analysis project investigating food price fluctuations to uncover trends, volatility patterns, and potential drivers affecting market stability.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+
+                <a href="https://github.com/lornakendi/food_price_proj.git" target="_blank">
+                    View Project →
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Salary Analysis Project</h3>
+                    <p>A data exploration project analyzing salary trends across roles and experience levels to understand income distribution, skill impact, and market positioning.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                        </div>
+
+                <a href="https://github.com/lornakendi/SalaryDataAnalysis.git" target="_blank">
+                    View Project →
+                </a>
+            </div>
+
+        </div>
+
+        <!-- VIEW ALL LINK (NOW INSIDE CONTAINER) -->
+        <a href="projects.html" class="view-all">
+            View All Projects →
+        </a>
+
+    </div>
+</section>
+
+
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+
+    <div class="container">
+
+        <h2>Let’s Build Something Meaningful With Data.</h2>
+
+        <p>
+            I’m open to internships, collaborations, and data-driven opportunities.
+            Let’s connect and create impact.
+        </p>
+
+        <div class="contact-links">
+            <a href="mailto:lornahkendy@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/lornakendi" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+</div>
+
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-container">
+
+        <p>© 2026 Lorna Kendi. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="#top">Back to Top</a>
+            <a href="projects.html">Projects</a>
+        </div>
+
+    </div>
+</footer>
+
+
 </body>
+
 </html>

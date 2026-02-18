@@ -1,54 +1,96 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Projects</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<body id="top">
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">LORNA KENDI</div>
+        <link rel="stylesheet" href="style.css">
 
-    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Featured</a>
+            <a href="projects.html">All Projects</a>
+            <a href="index.html#contact">Contact</a>         
+        </nav>
+    </header>
 
-        <h1>My Projects</h1>
-
-        <div class="project-card">
-            <h2>Road Accident Analysis</h2>
+    <!-- PAGE HERO -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1>All Projects</h1>
             <p>
-            This project analyzes road accident data to identify patterns in crash
-            frequency, severity, location, and contributing factors. The goal was to
-            uncover high-risk conditions and provide data-driven insights that could
-            support better traffic safety policies and preventive interventions.
+                A collection of data science, analytics, and engineering
+                projects demonstrating my technical growth and problem-solving approach.
             </p>
-            <p>
-            <p><strong>Tools Used:</strong> Python (Pandas, NumPy), data cleaning and preprocessing,
-            exploratory data analysis (EDA), data visualization (Matplotlib/Seaborn),
-            and statistical analysis techniques.
-            </p>
-            <a href="#">View Project</a>
         </div>
+    </section>
 
-        <div class="project-card">
-            <h2>Food Price Shocks Analysis</h2>
-             <p>
-            This project examines fluctuations in food prices to understand volatility,
-            inflationary trends, and potential economic shocks. The objective was to
-            identify patterns in price instability and highlight factors that may affect
-            food affordability and economic planning.
-            </p>
-            <p>
-            <p><strong>Tools Used:</strong> Python,  time-series analysis,data visualization,and 
-            statistical modeling for trend and variability analysis.
-            </p>
-            <a href="#">View Project</a>
+    <!-- PROJECT GRID -->
+    <section class="all-projects">
+        <div class="container">
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Road Accident Analysis Project</h3>
+                    <p>A data analysis project examining road accident patterns to identify key risk factors, trends, and high-risk conditions in order to support safer road policies and better decision-making.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                    <a href="https://github.com/lornakendi/road_accidents_proj.git" target="_blank">
+                    View Project →
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Food Price Shocks Analysis Project</h3>
+                    <p>An economic data analysis project investigating food price fluctuations to uncover trends, volatility patterns, and potential drivers affecting market stability.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+                            <a href="https://github.com/lornakendi/food_price_proj.git" target="_blank">
+                            View Project →
+                            </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Salary Analysis Project</h3>
+                    <p>A data exploration project analyzing salary trends across roles and experience levels to understand income distribution, skill impact, and market positioning.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    <a href="https://github.com/lornakendi/SalaryDataAnalysis.git" target="_blank">
+                        View Project →
+                    </a>
+                </div>
+
+                <!-- Add more projects here -->
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-container">
+
+        <p>© 2026 Lorna Kendi. All rights reserved.</p>
+
+        <div class="footer-links">
+            <a href="#top">Back to Top</a>
+            <a href="index.html">Home</a>
         </div>
 
     </div>
+</footer>
 
 </body>
-</html>
