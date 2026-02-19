@@ -113,24 +113,42 @@ nav a:hover {
 }
 
 .hero-buttons {
-    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
 }
 
-.resume-button {
-    display: inline-block;
+.resume-button,
+.view-button {
     padding: 12px 28px;
-    border: 1px solid #4da3ff;
-    color: #4da3ff;
-    text-decoration: none;
+    font-size: 14px;
     font-weight: 600;
     border-radius: 4px;
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
-.resume-button:hover {
+/* Primary Button (Download) */
+.resume-button {
     background-color: #4da3ff;
     color: #000;
 }
+
+.resume-button:hover {
+    opacity: 0.85;
+}
+
+/* Secondary Button (View) */
+.view-button {
+    border: 1px solid #4da3ff;
+    color: #4da3ff;
+}
+
+.view-button:hover {
+    background-color: #4da3ff;
+    color: #000;
+}
+
 
 
 /* ===============================
